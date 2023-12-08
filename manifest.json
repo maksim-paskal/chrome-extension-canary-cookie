@@ -1,0 +1,18 @@
+{
+  "name": "Canary Cookie Manager",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Set canary cookies for testing purposes.",
+  "icons": {
+    "128": "icon-off.png"
+  },
+  "action": {},
+  "permissions": [
+    "tabs",
+    "cookies"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
